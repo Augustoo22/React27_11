@@ -1,0 +1,98 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #232323;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+h1 {
+  color: #61dafb;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #444;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+select {
+  appearance: none;
+}
+
+button {
+  background-color: #4285f4; 
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #61dafb;
+}
+
+.lists-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.list {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: #61dafb; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+hr {
+  border: 1px solid #555;
+}
